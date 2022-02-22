@@ -1,0 +1,50 @@
+.carousel-item{
+    height: 22em;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #FFFFFF;
+}
+
+.card-img-top{
+    height: 20em;
+}
+.img-thumbnai{
+    height: 30em;
+    width: 30em;
+}
+
+.navbar{
+    background-color: #e2999f;
+}
+
+.btn{
+    background-color: #9bd7d8;
+    color: #fee6e6;
+}
+
+*[id="title"]{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+*[id="footer"]{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+}
+
+.card-title{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.card-text{
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-center{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}

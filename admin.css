@@ -1,0 +1,22 @@
+*[id="title"]{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+*[id=navigation]{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #FFFFFF;
+}
+.navbar{
+    background-color: #e2999f;
+}
