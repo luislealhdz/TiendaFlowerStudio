@@ -84,7 +84,7 @@
         <div class="row">
             <?php
                 //Servidor, Usuario, Contraseña BD
-                $connection = mysqli_connect("localhost:33068","hungrystudent","12345","flowers");
+                $connection = mysqli_connect("Nada","que","ver","aquí");
                 $query = "SELECT * FROM product";
                 $result = mysqli_query($connection, $query);
                 while($show = mysqli_fetch_row($result)){
