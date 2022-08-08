@@ -4,7 +4,7 @@
     $prize = $_POST['prize'];
 
     //Servidor, Usuario, Contraseña BD
-    $connection = mysqli_connect("localhost:33068","hungrystudent","12345","flowers");
+    $connection = mysqli_connect("Nada","que","ver","aquí");
     $query = "INSERT INTO product (product_name, images, prize) VALUES ('$product_name','$images','$prize')";
     $result = mysqli_query($connection, $query);
     if(!$result){

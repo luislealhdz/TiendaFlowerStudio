@@ -10,7 +10,7 @@
     $hour = $_POST['hour'];
 
     //Servidor, Usuario, Contraseña BD
-    $connection = mysqli_connect("localhost:33068","hungrystudent","12345","flowers");
+    $connection = mysqli_connect("Nada","que","ver","aquí");
     $query = "INSERT INTO product_order (
         ordered_product,
         name_buyer, 

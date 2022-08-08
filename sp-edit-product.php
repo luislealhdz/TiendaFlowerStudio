@@ -5,7 +5,7 @@
     $prize = $_POST['prize'];
 
     //Servidor, Usuario, Contraseña BD
-    $connection = mysqli_connect("localhost:33068","hungrystudent","12345","flowers");
+    $connection = mysqli_connect("Nada","que","ver","aquí");
     $query = "UPDATE product SET product_name='$product_name', images='$images', prize='$prize' WHERE id like $id";
     $result = mysqli_query($connection, $query);
     if(!$result){
